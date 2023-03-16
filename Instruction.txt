@@ -1,0 +1,20 @@
+Step 1: Prepare input data
+You will need a CSV file called profile.csv that contains several fields. Each row represents a user profile that the script will create accounts for. The following fields must be provided:
+
+email: An email address that will be used to create the account.
+password: A password that will be used to create the account. The password must meet the minimum requirements set by the website or service you are creating the account for.
+proxy: A proxy address that will be used to hide the script's IP address.
+profile_name: A unique name that you want to give to each user profile.
+
+
+step 2: to create env
+run command following commands
+to create env : make env
+to activate env : .\env\Script\activate
+to install requirement : make install
+
+step 3 : to run Script
+make run
+
+
+Note: Before running the script, make sure that you have filled in all the required fields in the profile.csv file and have verified the email addresses used to create the accounts. Additionally, make sure that the proxy addresses provided in the profile.csv file are valid and working. and not changing the heading names.
