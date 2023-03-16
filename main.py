@@ -30,7 +30,7 @@ def work(email,password,proxy):
         bot = Bot()
         bot.get_driver(profile_name=email,proxy=proxy)
         bot.check_email_login(email,password)
-        bot.Swipe()
+        bot.Swipe(email)
         bot.CloseDriver()
     except: ...
 
