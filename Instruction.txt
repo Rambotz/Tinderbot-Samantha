@@ -13,6 +13,8 @@ to create env : make env
 to activate env : .\env\Script\activate
 to install requirement : make install
 
+setp 4 : add some data in .env becuase these variables are needed in script.
+
 step 3 : to run Script
 make run
 
